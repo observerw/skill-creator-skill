@@ -72,12 +72,7 @@ Every SKILL.md consists of:
 
 ##### Scripts (`scripts/`)
 
-Executable code (Python/Bash/etc.) for tasks that require deterministic reliability or are repeatedly rewritten.
-
-- **When to include**: When the same code is being rewritten repeatedly or deterministic reliability is needed
-- **Example**: `scripts/rotate_pdf.py` for PDF rotation tasks
-- **Benefits**: Token efficient, deterministic, may be executed without loading into context
-- **Note**: Scripts may still need to be read by agents for patching or environment-specific adjustments
+Executable code files for tasks that require deterministic reliability. For detailed guidance on creating and using scripts in skills, see [references/scripts.md](references/scripts.md).
 
 ##### References (`references/`)
 
@@ -284,8 +279,8 @@ When editing the (newly-generated or existing) skill, remember that the skill is
 
 Consult these helpful guides based on your skill's needs:
 
-- **Multi-step processes**: See references/workflows.md for sequential workflows and conditional logic
-- **Specific output formats or quality standards**: See references/output-patterns.md for template and example patterns
+- **Multi-step processes**: See `references/workflows.md` for sequential workflows and conditional logic
+- **Specific output formats or quality standards**: See `references/output-patterns.md` for template and example patterns
 
 These files contain established best practices for effective skill design.
 
