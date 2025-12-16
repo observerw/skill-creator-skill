@@ -1,6 +1,12 @@
-#!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.8"
+# dependencies = [
+#     "pyyaml"
+# ]
+# ///
+
 """
-Quick validation script for skills - minimal version
+Quick validation script for skills
 """
 
 import re

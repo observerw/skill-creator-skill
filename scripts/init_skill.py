@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Skill Initializer - Creates a new skill from template
 
