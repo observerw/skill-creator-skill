@@ -15,4 +15,6 @@ Anthropic enthusiastically proposes new concepts like `mcp` or `skills`, attract
 
 In other words, Anthropic is like a politician who enthusiastically shouts political slogans to attract voters, but after taking office, completely fails to fulfill the responsibilities that a manager should undertake. 
 
+Despite the chaos in their software design, Anthropic shows an attitude of refusing to cooperate with the community or other vendors, always trying to highlight their own uniqueness. For example, they always use the term `Claude` in generic documentation (e.g., the original `SKILL.md`). To this day, Claude Code remains closed-source and incompatible with the `AGENTS.md` standard. There are many such examples.
+
 **SHAME ON YOU, ANTHROPIC!**
